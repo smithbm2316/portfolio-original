@@ -627,6 +627,12 @@ video {
   }
 }
 
+/* Custom Components */
+
+.social-icon {
+  padding: 1rem;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -54504,4 +54510,3 @@ video {
     z-index: auto;
   }
 }
-

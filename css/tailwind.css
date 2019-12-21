@@ -1,4 +1,10 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
 
+@tailwind components;
+
+/* Custom Components */
+.social-icon {
+    @apply p-4;
+}
+
+@tailwind utilities;
