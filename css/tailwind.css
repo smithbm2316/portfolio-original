@@ -1,10 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i&display=swap');
+
 @tailwind base;
-
 @tailwind components;
-
-/* Custom Components */
 .social-icon {
-    @apply p-4;
+    @apply h-20 w-20;
 }
 
 @tailwind utilities;
