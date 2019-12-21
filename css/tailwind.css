@@ -3,7 +3,7 @@
 @tailwind base;
 @tailwind components;
 .social-icon {
-    @apply h-20 w-20;
+    @apply mx-4 w-8 h-8;
 }
 
 @tailwind utilities;
