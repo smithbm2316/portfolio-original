@@ -10,4 +10,12 @@
     letter-spacing: 0.008em;
 }
 
+.project-card {
+    @apply flex items-center justify-center w-full h-48 border-pink-200 border-solid border-2 shadow-md mb-8;
+}
+
+.card-title {
+    @apply text-2xl font-semibold mx-4;
+}
+
 @tailwind utilities;
