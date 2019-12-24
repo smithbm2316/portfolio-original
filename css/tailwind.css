@@ -11,11 +11,17 @@
 }
 
 .project-card {
-    @apply flex items-center justify-center w-full h-48 border-pink-200 border-solid border-2 shadow-md mb-8;
+    height: calc(width);
+    @apply flex items-center justify-center w-full border-pink-200 border-solid border-2 shadow-md mb-8;
 }
 
 .card-title {
     @apply text-2xl font-semibold mx-4;
+}
+
+/* Class for making project card height equal to the width of the card  */
+.height-eq-width {
+    height: calc(width);
 }
 
 @tailwind utilities;
