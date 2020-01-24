@@ -663,10 +663,6 @@ video {
   margin-right: 1rem;
 }
 
-.place-content-center {
-  place-content: center;
-}
-
 /* Class for making project card height equal to the width of the card  */
 
 .height-eq-width {

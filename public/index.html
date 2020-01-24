@@ -8,17 +8,43 @@
     <script src="https://kit.fontawesome.com/0dd3049dd8.js" crossorigin="anonymous"></script>
 </head>
 
-<body class='bg-gray-100 w-3/4 mx-auto lg:max-w-xl font-sans'>
-    <header>
-        
+<body class='bg-gray-100 h-full'>
+    <header class='w-5/6 lg:w-2/3 mx-auto'>
+        <nav class='flex flex-wrap justify-between md:flex-no-wrap my-16 font-light text-xl lg:text-2xl'>
+
+            <!-- <div class='home-link md:w-2/3 xl:w-3/4 text-pink-400'> -->
+            <div class='home-link md:w-1/4 text-pink-400'>
+                <a href='./index.html'>Ben Smith</a>
+            </div>
+
+            <div class="hamburger block md:hidden">
+                <button class="flex items-center px-2 py-2 border border-transparent rounded text-pink-400 hover:border-pink-400">
+                  <svg class="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                </button>
+            </div>
+
+            <!-- <ul class='w-full flex-grow block md:justify-between md:flex md:w-1/3 xl:w-1/4 text-gray-600'> -->
+            <ul class='w-full flex-grow bg-gray-200 text-gray-800 font-thin my-2 p-4 md:my-0 md:p-0 md:bg-transparent md:flex md:justify-end md:font-light md:text-gray-600'>
+                <li class='md:mx-4'>
+                    <a href='./about.html'>About</a>
+                </li>
+                <li class='md:mx-4'>
+                    <a href='./projects.html'>Projects</a>
+                </li>
+                <li class='md:mx-4'>
+                    <a href='.contact.html'>Contact</a>
+                </li>
+            </ul>
+
+        </nav>
     </header>
 
-    <main>
+    <main class='w-3/4 mx-auto h-full lg:max-w-xl font-sans'>
 
-        <section class='headline h-screen flex flex-col justify-center items-center'>
+        <section class='headline h-full flex flex-col justify-center items-center'>
             <img class='profile-pic rounded-full border-pink-200 border-solid border-2 shadow-md my-4 w-2/3 sm:w-1/2' src='./images/profile_pic.jpg' alt='Ben'>
             <h1 class='name text-5xl md:text-6xl tracking-tight text-pink-400 font-bold'>Ben Smith</h1>
-            <p class='tagline text-center text-md md:text-lg text-gray-600 font-light w-10/12 md:w-11/12'>
+            <p class='tagline text-center text-md md:text-lg text-gray-600 font-normal w-10/12 md:w-11/12'>
                 I'm a front-end web developer with a passion for designing and implementing intuitive and beautiful interfaces.
             </p>
             <div class='socials flex justify-around my-4'>
