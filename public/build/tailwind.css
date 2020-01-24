@@ -666,7 +666,7 @@ video {
 /* Animate the nav bar links */
 
 @media (min-width: 768px) {
-  .home-link a:after, .nav-link a:after {
+  .home-link:after, .nav-link a:after {
     display: block;
     content: '';
     -webkit-transform: scaleX(0);
@@ -684,7 +684,7 @@ video {
     border-color: #718096;
   }
 
-  .home-link a:hover:after, .nav-link a:hover:after {
+  .home-link:hover:after, .nav-link a:hover:after {
     -webkit-transform: scaleX(1);
             transform: scaleX(1);
   }

@@ -3,7 +3,6 @@
 @tailwind base;
 @tailwind components;
 
-
 .social-icon {
     @apply mx-6 text-4xl text-gray-700;
 }
@@ -23,7 +22,7 @@
 
 /* Animate the nav bar links */
 @media (min-width: 768px) {
-    .home-link a:after, .nav-link a:after {
+    .home-link:after, .nav-link a:after {
         display: block;
         content: '';
         transform: scaleX(0);
@@ -35,7 +34,7 @@
         @apply border-gray-600;
     }
     
-    .home-link a:hover:after, .nav-link a:hover:after {
+    .home-link:hover:after, .nav-link a:hover:after {
         transform: scaleX(1);
     }
 }
