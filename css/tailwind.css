@@ -3,6 +3,7 @@
 @tailwind base;
 @tailwind components;
 
+
 .social-icon {
     @apply mx-6 text-4xl text-gray-700;
 }
