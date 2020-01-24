@@ -2,8 +2,9 @@
 
 @tailwind base;
 @tailwind components;
+
 .social-icon {
-    @apply mx-4 w-8 h-8;
+    @apply mx-6 text-4xl text-gray-700;
 }
 
 .tagline {
@@ -17,6 +18,10 @@
 
 .card-title {
     @apply text-2xl font-semibold mx-4;
+}
+
+.place-content-center {
+    place-content: center;
 }
 
 /* Class for making project card height equal to the width of the card  */

@@ -630,10 +630,10 @@ video {
 }
 
 .social-icon {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  width: 2rem;
-  height: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 2.25rem;
+  color: #4a5568;
 }
 
 .tagline {
@@ -661,6 +661,10 @@ video {
   font-weight: 600;
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+.place-content-center {
+  place-content: center;
 }
 
 /* Class for making project card height equal to the width of the card  */
