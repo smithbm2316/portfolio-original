@@ -3,31 +3,15 @@
 @tailwind base;
 @tailwind components;
 
-.social-icon {
-    @apply mx-6 text-4xl text-gray-700;
-}
-
-.tagline {
-    letter-spacing: 0.008em;
-}
-
-.project-card {
-    height: calc(width);
-    @apply flex items-center justify-center w-full border-pink-200 border-solid border-2 shadow-md mb-8;
-}
-
-.card-title {
-    @apply text-2xl font-semibold mx-4;
-}
-
-/* Animate the nav bar links */
-@media (min-width: 768px) {
+/* Target medium sized screens */
+@screen md {
+    /* Animate the nav bar links */
     .home-link:after, .nav-link a:after {
         display: block;
         content: '';
         transform: scaleX(0);
         transition: transform 0.5s ease;
-        @apply border-pink-400 border-b-2 border-solid;
+        @apply border-blue-600 border-b-2 border-solid;
     }
 
     .nav-link a:after {
@@ -37,13 +21,6 @@
     .home-link:hover:after, .nav-link a:hover:after {
         transform: scaleX(1);
     }
-}
-
-
-
-/* Class for making project card height equal to the width of the card  */
-.height-eq-width {
-    height: calc(width);
 }
 
 @tailwind utilities;
