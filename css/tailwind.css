@@ -1,27 +1,39 @@
+/* purgecss start ignore */
 @import url('https://rsms.me/inter/inter.css');
 
 @tailwind base;
 @tailwind components;
-.social-icon {
-    @apply mx-4 w-8 h-8;
+
+.tech-icon {
+    width: 33%;
+    @apply text-6xl my-8 flex justify-center items-center;
 }
 
-.tagline {
-    letter-spacing: 0.008em;
+.social-link:hover, .social-link:focus {
+    transform: scale(1.2);
+    transition-duration: 0.25s;
+    @apply text-blue-300;
 }
 
-.project-card {
-    height: calc(width);
-    @apply flex items-center justify-center w-full border-pink-200 border-solid border-2 shadow-md mb-8;
+/* Target medium sized screens */
+@screen md {
+    /* Animate the nav bar links */
+    .home-link:after, .nav-link a:after {
+        display: block;
+        content: '';
+        transform: scaleX(0);
+        transition: transform 0.5s ease;
+        @apply border-blue-600 border-b-2 border-solid;
+    }
+
+    .nav-link a:after {
+        @apply border-gray-600;
+    }
+    
+    .home-link:hover:after, .nav-link a:hover:after {
+        transform: scaleX(1);
+    }
 }
 
-.card-title {
-    @apply text-2xl font-semibold mx-4;
-}
-
-/* Class for making project card height equal to the width of the card  */
-.height-eq-width {
-    height: calc(width);
-}
-
+/* purgecss end ignore */
 @tailwind utilities;

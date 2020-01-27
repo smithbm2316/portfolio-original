@@ -1,3 +1,5 @@
+/* purgecss start ignore */
+
 @import url('https://rsms.me/inter/inter.css');
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -629,45 +631,57 @@ video {
   }
 }
 
-.social-icon {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  width: 2rem;
-  height: 2rem;
-}
-
-.tagline {
-  letter-spacing: 0.008em;
-}
-
-.project-card {
-  height: calc(width);
+.tech-icon {
+  width: 33%;
+  font-size: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   display: -webkit-box;
   display: flex;
-  -webkit-box-align: center;
-          align-items: center;
   -webkit-box-pack: center;
           justify-content: center;
-  width: 100%;
-  border-color: #fed7e2;
-  border-style: solid;
-  border-width: 2px;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  margin-bottom: 2rem;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
-.card-title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-left: 1rem;
-  margin-right: 1rem;
+.social-link:hover, .social-link:focus {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+  color: #90cdf4;
 }
 
-/* Class for making project card height equal to the width of the card  */
+/* Target medium sized screens */
 
-.height-eq-width {
-  height: calc(width);
+@media (min-width: 768px) {
+  /* Animate the nav bar links */
+
+  .home-link:after, .nav-link a:after {
+    display: block;
+    content: '';
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    border-color: #3182ce;
+    border-bottom-width: 2px;
+    border-style: solid;
+  }
+
+  .nav-link a:after {
+    border-color: #718096;
+  }
+
+  .home-link:hover:after, .nav-link a:hover:after {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
 }
+
+/* purgecss end ignore */
 
 .sr-only{
   position: absolute;

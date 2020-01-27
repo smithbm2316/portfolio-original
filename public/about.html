@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>About - Ben Smith</title>
+    <link rel='shortcut icon' href='./images/favicon.ico' type='image/x-icon'>
+    <link rel='stylesheet' href='./build/tailwind.css'>
+    <script src="https://kit.fontawesome.com/0dd3049dd8.js" crossorigin="anonymous"></script>
+</head>
+
+<body class='bg-gray-100 h-full'>
+    <div class='font-sans w-5/6 xl:w-2/3 mx-auto'>
+        <header>
+            <nav class='flex flex-wrap md:items-center justify-between md:flex-no-wrap my-16 font-light text-xl lg:text-2xl'>
+
+                <a href='./' class='home-link block'>
+                    <svg class='h-16 w-16  pb-2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+                        <title>Home</title>
+                        <path d="M369.025,235.105c17.031-14.694,30.476-33.699,38.434-55.734c5.262-14.568,7.93-29.871,7.93-45.483    C415.388,60.062,355.326,0,281.5,0h-216c-11.046,0-20,8.954-20,20v472c0,11.046,8.954,20,20,20h259.303    c21.992,0,44.001-4.558,61.973-12.834c10.033-4.62,14.421-16.499,9.801-26.531c-4.621-10.033-16.498-14.425-26.532-9.801    c-12.836,5.911-28.903,9.166-45.242,9.166H85.5V40h196c51.77,0,93.888,42.118,93.888,93.888c0,10.966-1.868,21.697-5.551,31.896    c-13.391,37.08-48.891,61.993-88.337,61.993c-0.965,0-1.906,0.092-2.834,0.224H165.5c-11.046,0-20,8.954-20,20s8.954,20,20,20    h159.303c56.076,0,101.697,45.894,101.697,102.304c0,11.633-1.67,22.515-4.963,32.341c-3.51,10.473,2.135,21.809,12.608,25.318    c2.108,0.707,4.251,1.043,6.358,1.043c8.361,0,16.157-5.285,18.961-13.65c4.669-13.932,7.037-29.089,7.037-45.052    C466.5,307.34,425.567,253.805,369.025,235.105z" data-original="#ED64A6" class="active-path" data-old_color="#ED64A6" fill="#3182CE"/>
+                    </svg>
+                </a>
+
+                <div class="hamburger block md:hidden">
+                    <button id='hamburger-toggle' class="flex items-center px-2 py-2 border border-transparent rounded text-blue-600 focus:border-blue-600 focus:border-2 hover:border-blue-600 hover:border-2 active:border-blue-600 active:border-2">
+                    <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                    </button>
+                </div>
+
+                <ul class='hidden rounded md:block w-full flex-grow bg-gray-200 text-gray-800 font-thin my-2 p-4 md:w-auto md:my-0 md:p-0 md:bg-transparent md:flex md:justify-end md:font-light md:text-gray-600'>
+                    <li class='p-2 md:border-b-2 md:border-gray-600 rounded md:rounded-none hover:bg-gray-300 md:p-0 md:hover:bg-transparent md:ml-12 lg:ml-16'>
+                        <a class='block md:inline-block' href='./about.html'>About</a>
+                    </li>
+                    <li class='nav-link p-2 rounded hover:bg-gray-300 md:p-0 md:hover:bg-transparent md:ml-12 lg:ml-16'>
+                        <a class='block md:inline-block' href='./projects.html'>Projects</a>
+                    </li>
+                    <li class='nav-link p-2 rounded hover:bg-gray-300 md:p-0 md:hover:bg-transparent md:ml-12 lg:ml-16'>
+                        <a class='block md:inline-block' href='./resume.pdf'>Resume</a>
+                    </li>
+                </ul>
+
+            </nav>
+        </header>
+        
+        <main class='ml-1'>
+            <h1 class='font-bold text-gray-900 leading-none text-5xl md:text-6xl'>
+                About Me
+            </h1>
+
+            <section class='background flex-col my-16 text-gray-700 text-sm md:text-base'>
+                <div class='picture mb-8'>
+                    <img class='w-full' src='./images/my-background.jpeg' alt='Ben smiling'>
+                </div>
+
+                <h2 class='text-3xl md:text-4xl font-semibold mb-4 text-blue-700'>
+                    My Background
+                </h2>
+
+                <p class='mb-4'>
+                    I grew up in the San Francisco Bay Area in California for 18 years before heading off to UC Irvine in Southern California. I am currently pursuing a Bachelor's of Informatics in the school of Information and Computer Sciences. I found my interest in coding during the summer after my freshman year of high school, where I decided to take an online introductory Java course through San Jose State University for fun. I spent my sophomore year of high school learning Python and building a few different projects in an introductory Python class I took. However, it wasn't until 2018 that I rekindled my love of programming. 
+                </p>
+                <p>
+                    I started off at UCI as a Mechanical Engineering major, until I decided to start the process of switching into Informatics halfway through my second year. I began re-learning Python through UCI's required intro series of classes, and then decided last summer to pursue web development. Through the courses I've taken in Informatics and exploration of my own, I've discovered the fascination that I have had for years with interface design, specifically of websites and web apps. My focus as a front-end developer is to combine usability-focused interfaces with clean and aesthetic design. 
+                </p>                
+            </section>
+
+            <section class='not-coding flex-col my-16 text-gray-700 text-sm md:text-base'>
+                <div class='picture mb-8'>
+                    <img class='w-full' src='./images/coffee.jpeg' alt='Ben drinking coffee'>
+                </div>
+
+                <h2 class='text-3xl md:text-4xl font-semibold mb-4 text-blue-700'>
+                    When I'm Not Coding
+                </h2>
+
+                <p class='mb-4'>
+                    Regardless of whether I'm coding or just hanging out, you'll probably still catch me with a cup of coffee in my hand. I find so much joy in brewing coffee from home with my Hario V60 pour over, Aeropress, or Moka Pot. The coffee not only keeps me fueled and motivated to keep working, but also serves as an intentional and relaxing start to my day. 
+                </p>
+                <p>
+                    If I'm by myself, I'll probably have a pair of headphones on and be playing Spotify in the background of whatever I'm doing as music brings me life, whether I'm working or just listening. You can find me on Saturday mornings watching Manchester United play at earlier hours of the morning than I would ever get up for normally, even with all of the struggles the team has had over the years.
+                </p>             
+            </section>
+
+            <section class='future flex-col my-16 text-gray-700 text-sm md:text-base'>
+                <div class='picture mb-8'>
+                    <img class='w-full' src='./images/friends.jpeg' alt='Ben with his friends'>
+                </div>
+
+                <h2 class='text-3xl md:text-4xl font-semibold mb-4 text-blue-700'>
+                    Looking Forward
+                </h2>
+
+                <p class='mb-4'>
+                    As I look towards my graduation date approaching quickly, I am focused on learning as much as I can about front-end web development and how to continue to improve my ability to create interfaces that are usability-focused without sacrificing design. 
+                </p>
+                <p>
+                    At the beginning of February, I will be attending UCI's own hackathon, HackUCI, where I plan to focus my efforts on building a static site generated blog all about my love of coffee. Stay tuned to my GitHub to see the result of that project! I have a lot planned for the coming months on what I want to learn and build, so I hope to continue to keep my GitHub very active for the rest of this school year and beyond.
+                </p>           
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src='./js/menu-toggle.js'></script>
+</body>
+
+</html>
