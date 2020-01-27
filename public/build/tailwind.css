@@ -631,6 +631,27 @@ video {
   }
 }
 
+.tech-icon {
+  width: 33%;
+  font-size: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.social-link:hover, .social-link:focus {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+  color: #90cdf4;
+}
+
 /* Target medium sized screens */
 
 @media (min-width: 768px) {

@@ -4,6 +4,17 @@
 @tailwind base;
 @tailwind components;
 
+.tech-icon {
+    width: 33%;
+    @apply text-6xl my-8 flex justify-center items-center;
+}
+
+.social-link:hover, .social-link:focus {
+    transform: scale(1.2);
+    transition-duration: 0.25s;
+    @apply text-blue-300;
+}
+
 /* Target medium sized screens */
 @screen md {
     /* Animate the nav bar links */
