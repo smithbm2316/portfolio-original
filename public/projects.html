@@ -52,36 +52,23 @@
                 </div>
 
                 <div class='technologies w-full pl-0 md:pl-4 md:w-1/2 flex flex-wrap'>
+                    <div class='tech-icon text-blue-500'>
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class='tech-icon text-yellow-500'>
+                        <i class='fab fa-js-square'></i>
+                    </div>
+                    <div class='tech-icon text-green-500'>
+                        <i class="fab fa-node"></i>
+                    </div>
                     <div class='tech-icon text-orange-600'>
                         <i class='fab fa-html5'></i>
                     </div>
                     <div class='tech-icon text-blue-600'>
                         <i class='fab fa-css3-alt'></i>
                     </div>
-                    <div class='tech-icon text-yellow-500'>
-                        <i class='fab fa-js-square'></i>
-                    </div>
                     <div class='tech-icon text-blue-400'>
                         <i class='fab fa-wordpress-simple'></i>
-                    </div>
-                    <div class='tech-icon text-yellow-500'>
-                        <i class="fab fa-python"></i>
-                    </div>
-                    <div class='tech-icon'>
-                        <svg class='w-16 h-16' version="1.1" baseProfile="tiny" id="ps_x5F_cc_x5F_app_x5F_RGB.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 240 234" xml:space="preserve">
-                            <g>
-                                <rect x="10" y="10" fill-rule="evenodd" fill="#2E001E" width="220" height="214"/>
-                            </g>
-                            <g>
-                                <path fill-rule="evenodd" fill="#FF2BC2" d="M0,0v234h240V0H0z M10,10h220v214H10V10z"/>
-                            </g>
-                            <path fill="#FF2BC2" d="M174.3,98.3c-1.5-0.7-3.4-1-5.8-1c-12.6,0-21,9.7-21,25.8c0,18.4,8.6,25.8,19.8,25.8c2.4,0,5-0.3,6.9-1.1
-                                V98.3z M129.5,123.9c0-23.3,15-41.5,39.6-41.5c2.1,0,3.2,0,5.2,0.2v-26c0-0.6,0.5-1,1-1h16.1c0.8,0,1,0.3,1,0.8v91.4
-                                c0,2.7,0,6.1,0.5,9.8c0,0.7,0,0.8-0.6,1.1c-8.4,4-17.2,5.8-25.6,5.8C145,164.5,129.5,151.1,129.5,123.9z M95.4,107.7l28,54.3
-                                c0.5,0.8,0.2,1.6-0.6,1.6h-17.4c-1.1,0-1.6-0.3-2.1-1.3c-6.4-13.2-12.9-26.9-19.6-41.1h-0.2c-6,13.4-12.6,28-19,41.2
-                                c-0.5,0.8-1,1.1-1.8,1.1H46.1c-1,0-1.1-0.8-0.6-1.4l27.4-52.7L46.4,57c-0.6-0.8,0-1.5,0.7-1.5h17.2c1,0,1.5,0.2,1.8,1.1
-                                C72.4,69.9,78.8,83,84.8,96.4h0.2c5.8-13.2,12.2-26.5,18.3-39.6c0.5-0.8,0.8-1.3,1.8-1.3h16.1c0.8,0,1.1,0.6,0.6,1.5L95.4,107.7z"/>
-                        </svg>
                     </div>
                 </div>
                 
@@ -92,12 +79,23 @@
     <div class='bg-gray-100 mx-auto'>
         <div class='w-5/6 xl:w-2/3 mx-auto'>
             <main class='ml-1 pt-16 pb-8 text-gray-700 text-sm md:text-base'>
-                <section class='dfs mb-8'>
+                <section class='telescope mb-8'>
                     <h2 class='text-4xl text-blue-700 font-semibold mb-4'>
-                        Dreams For Schools App (ongoing)
+                        telescope.nvim
                     </h2>
                     <p class='mb-4'>
-                        During my last two quarters at UCI, I am working on building a full-stack content management system for a non-profit organization called Dreams For Schools, as a part of my capstone project course. My project's team is building the app using React, Next.js, Contentful CMS, Sequelize, Netlify, and Azure. I have focused on creating high-fidelity mockups in Figma and building React components thus far, but will also be working on routing on the back-end in Node.js in the coming months. 
+                        Telescope is a plugin written in Lua for my main text editor (Neovim) that adds a fuzzy file finder to the editor. I have been active in this project alongside a community of other open-source developers. I have written documentation for multiple features as well as added a few integrations for Git to the plugin myself.
+                    </p>
+                    <p>
+                        <a href='https://github.com/nvim-telescope/telescope.nvim' class='text-blue-500 text-xl hover:underline'>See the project on Github -></a>
+                    </p>
+                </section>
+                <section class='dfs mb-8'>
+                    <h2 class='text-4xl text-blue-700 font-semibold mb-4'>
+                        Dreams For Schools App
+                    </h2>
+                    <p class='mb-4'>
+                        For my capstone project at UC Irvine, my team of five produced a web-based employee management platform for a non-profit organization that hires college students to mentor kids in STEM-focused after-school programs. The application enables leaders in the organization to better manage the mentors they hire and provide them with the resources and information they need to succeed.
                     </p>
                 </section>
                 <section class='plreport mb-8'>
@@ -106,10 +104,10 @@
                     </h2>
 
                     <p class='mb-4'>
-                        For my final project in the course Informatics 133 at UCI, I built a web app using React, Next.js, and TailwindCSS that displays English Premier League data from the SportsDB API. The app allows the user to view live, past, and present scores of Premier League matches, as well as the current standings and future match schedules.
+                        For my final project in my "User Interaction Software" course at UCI, I built a web app using React, Next.js, and TailwindCSS that displays English Premier League data from the SportsDB API. The app allows the user to view live, past, and present scores of Premier League matches, as well as the current standings and future match schedules.
                     </p>
                     <p>
-                        <a href='https://github.com/smithbm2316/pl-report' class='text-blue-500 text-xl hover:underline'>See the finished project -></a>
+                        <a href='https://github.com/smithbm2316/pl-report' class='text-blue-500 text-xl hover:underline'>See the project on Github -></a>
                     </p>
                 </section>
                 <section class='arrayjs mb-8'>
@@ -118,7 +116,7 @@
                     </h2>
 
                     <p class='mb-4'>
-                        After working through Wes Bos' "Beginner Javascript" course throughout my winter quarter at UCI this year, I wanted to build a project to cement my understanding of a few of the higher-order array methods in Javascript that are very useful: map(), filter(), and reduce(). I decided to build a small website with a couple of blog-style tutorial posts aimed at teaching new developers how each of these three methods worked in Javascript. I also decided that before I jumped into learning ReactJS, I wanted to build one more site with just plain HTML, CSS, and Javascript.
+                        After working through Wes Bos' "Beginner Javascript" course throughout my winter quarter at UCI in 2020, I wanted to build a project to cement my understanding of a few of the higher-order array methods in Javascript that are very useful: map(), filter(), and reduce(). I decided to build a small website with a couple of blog-style tutorial posts aimed at teaching new developers how each of these three methods worked in Javascript. I also decided that before I jumped into learning ReactJS, I wanted to build one more site with just plain HTML, CSS, and Javascript.
                     </p>
                     <p class='mb-4'>
                         In order to accomplish all of these things, I built and hosted a website on Netlify, integrating a dark mode toggle into a site for the first time, as well as spending a lot of time theming the project around one of my favorite visual aesthetics: synthwave (see Rob Owen's VS Code theme <a href="https://github.com/robb0wen/synthwave-vscode/" class="text-blue-500 hover:underline">Synthwave 84'</a> if you haven't heard of synthwave before). I also took this project as an opportunity to experiment with web components, specifically Polymer's lit-html and lit-element libraries that make creating native web components much simpler. It was a fun project and in the future, I plan to migrate the three blog posts that I wrote for this project to a more permanent blog site where I can continue to write about the different tricks and concepts I continue to learn in my web development journey.
@@ -160,20 +158,6 @@
                     </p>
                     <p>
                         <a href='https://healingodyssey.net/' class='text-blue-500 text-xl hover:underline'>See the redesigned site -></a>
-                    </p>
-                </section>
-                <section class='smashgg mb-8'>
-                    <h2 class='text-4xl text-blue-700 font-semibold mb-4'>
-                        Smash.gg
-                    </h2>
-
-                    <p class='mb-4'>
-                        For an upper-division Informatics course I took in spring quarter of 2019, I fully redesigned Smash.gg's website along with four other teammates. We conducted interviews and surveys with the users of the site around our campus in order to find out what the users liked and what pain points they had. We then brought several users in for usability tests in order to see what tasks the users had the hardest time with, as well as conducting one cognitive walkthrough of the site. 
-                    <p class='mb-4'>
-                        We proceeded to make a number of sketches and low-fidelity prototypes before we finalized the designs for a few aspects of the website we wanted to change. With those decisions made, we created a number of high-fidelity mockups for the account information, profile settings, registered tournaments, search, and homepage screens of the site. After finishing our final mockups in Adobe XD, we conducted a heuristic evaluation of the mockups in order to assess the strengths and weaknesses of the new designs for the site that we produced. Finally, we produced a case study of the all of the processes and deliverables that we completed throughout the quarter.
-                    </p>
-                    <p>
-                        <a href='https://docs.google.com/document/d/1DilmTM8ZRCjy1Wvzy8P5zBUXcBoHdgn8v_G_UwQmjoQ/edit' class='text-blue-500 text-xl hover:underline'>See our group's case study -></a>
                     </p>
                 </section>
             </main>
